@@ -1,0 +1,8 @@
+"scenario_id","display_name","method_family","observation_model","prior","relative_bias","relative_rmse","coverage","interval_length","time_seconds_per_dataset","simulations"
+"rdm_ar","RDM + AR(1)","Bayesian","RDM","AR(1)",0.0112086513,0.0326289884,0.944,7234.439,129.045,1000
+"rdm_dirichlet","RDM + Dirichlet","Bayesian","RDM","Dirichlet",0.0271077369,0.0398577260,0.873,7169.246,43.782,1000
+"mmd_ar","MMD + AR(1)","Bayesian","MMD","AR(1)",0.0047266026,0.0305484479,0.954,7172.646,91.512,1000
+"mmd_dirichlet","MMD + Dirichlet","Bayesian","MMD","Dirichlet",0.0146183530,0.0321477011,0.945,7059.697,1.480,1000
+"frequentist_mom","MoM","Frequentist",,,-0.0007795632,0.0299930380,0.943,6987.236,0.000062,1000
+"frequentist_mom_alt","MoM(Alt)","Frequentist",,,-0.0007795632,0.0299930380,0.943,7009.774,0.000442,1000
+"frequentist_mom_naive","MoM(Naive)","Frequentist",,,-0.0007795632,0.0299930380,0.900,5935.132,0.000030,1000

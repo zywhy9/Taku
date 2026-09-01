@@ -1,0 +1,19 @@
+.Rhistory
+.Rapp.history
+.Rproj.user/
+*.Rout
+
+# The empirical inputs and all per-dataset R objects are private or generated.
+*.RData
+*.rds
+private-data/
+data/
+
+# Recommended destinations for complete local runs.
+outputs/
+local/
+cluster/config.sh
+
+# Scheduler logs and transfer archives are not source code.
+slurm-*.out
+*.tar.gz

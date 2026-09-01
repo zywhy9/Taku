@@ -1,0 +1,5 @@
+"scenario_id","datasets","rhat_threshold","ess_threshold","stopping_rule_passes","stopping_rule_pass_rate"
+"rdm_ar",1000,1.10,100,1000,1
+"rdm_dirichlet",1000,1.10,100,1000,1
+"mmd_ar",1000,1.10,100,1000,1
+"mmd_dirichlet",1000,1.10,100,1000,1
